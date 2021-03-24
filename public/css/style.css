@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+section.landing-page {
+  width: 100%;
+  height: 100vh;
+
+
+  padding: 100px;
+  background: rgb(40, 40, 40);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div.box-content {
+  width: 470px;
+  height: 480px;
+
+  color: #fff;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+div.box-content h1 {
+  font-size: 34px;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+
+div.box-content strong {
+  color: red;
+}
+
+div.box-content p {
+  padding-bottom: 50px;
+  max-width: 420px;
+  font-size: 18px;
+  text-align: center;
+}
+
+div.box-content button {
+  width: 250px;
+  height: 50px;
+
+  background: rgb(59, 118, 235);
+  border: 1px solid rgb(100, 100, 240);
+
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+
+  transition: .2s;
+  cursor: pointer;
+}
+
+div.box-content button:hover {
+  opacity: .8;
+}
+
+div.box {
+  width: 470px;
+  height: 480px;
+
+  background: #fff;
+  font-family: 'Arial', sans-serif;
+}
+
+div.box img {
+  width: 200px;
+  height: 50px;
+
+  margin-top: 35px;
+}
+
+div.content {
+  width: 100%;
+
+  padding: 30px 60px 10px 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+div.content h1 {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 23px;
+  font-weight: 300;
+}
+
+div.content h1 span {
+  color: red;
+}
+
+div.content > input {
+  width: 100%;
+  height: 45px;
+
+  padding-left: 10px;
+  font-size: 18px;
+  background: lightgray;
+  border: 1px solid #fff;
+  margin-top: 20px;
+}
+
+div.check {
+  width: 100%;
+  height: 50px;
+
+  padding-top: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.check input {
+  cursor: pointer;
+}
+
+div.check p {
+  max-width: 340px;
+  padding-left: 10px;
+  color: #000;
+}
+
+div.box button {
+  width: 100%;
+  height: 50px;
+
+  margin-top: 20px;
+  background: red;
+  border: 1px solid lightcoral;
+
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+
+  transition: .2s;
+  cursor: pointer;
+}
+
+div.box button:hover {
+  opacity: .7;
+}
